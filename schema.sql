@@ -51,3 +51,8 @@ CREATE TABLE department_employees(
 );
 SELECT * FROM departments;
 SELECT * FROM salaries;
+SELECT * FROM departments;
+SELECT * FROM dept_manager;
+SELECT * FROM employees;
+SELECT * FROM department_employees;
+SELECT * FROM titles;
