@@ -20,11 +20,15 @@ After some initial work with the PH data, some additional work was still needed 
 
 ![retiring_title](Data/retiring_titles.png)
 
+*Table 1: Showing the count of retiring employees based on their titles.*
+
 * From the retiring titles CSV table, it is evident that a total of 90,398 employees born between 1952 and 1955 are about to retire. Large number from these employees are Senior Engineers (29414) and Senior Staff members (28254) of the company.The other employees retiring are Engineers (14222), Staffs (12243), Technique Leaders (4502), Assistant Engineers (1761) and Managers (2).  
 
 * **Highest number of retiring employees are Senior Engineers.**
 
 ![Unique_titles](Data/unique_titles.png)
+
+*Table 2: Information of all the employees retiring along with their titles.*
 
 * The Unique Titles CSV table gives detailed informations about the employees retiring. It includes their unique employment number, first name and last name along with the title he is currently working as. This table has unique names and no name is repeated twice. This is achieved by using the SELECT UNIQUE ON command on the employment number.
 
@@ -32,9 +36,13 @@ After some initial work with the PH data, some additional work was still needed 
 
 ![mentorship_eligibility](Data/mentorship_eligibility.png)
 
+*Table 3: List of all the retiring employees eligible for mentorship.*
+
 * The mentorship eligibility CSV table is a comprehensive table showing all the employees born in 1965 holding different titles who are eligible for the mentorship program. This table highlights their first name , last name, birthdate and their service years at HP.
 
 ![mentorship_titles](Data/mentorship_title.png)
+
+*Table 4: The bar graph shows mentorship count under each title.*
 
 * A little further SQL query into the mentorship eligibility table shows the count of employees under each title category who are eligible to mentor. This graph shows 507 engineers , 489 Senior Staffs , 415 Staffs, 353 Senior engineers , 99 Technique Leaders and 77 Assistant Engineers are eligible to mentor. There are 1940 employees in total who are eligible to mentor.  
 
@@ -64,10 +72,14 @@ Apart from the required queries the Data Scientist team also grouped the retirin
 
 ![retirement_gendertable](Data/retirement_gender.png)
 
+*Table 5: Shows retiring employees along with their gender and title.*
+
 First a new table was created with the names of the retiring employees along with their gender and the title held. This was followed by counting the retiring employees based on their gender. It was found that a total of 1150 males and 790 females are retiring. More males are retiring than the number of females retiring.This could be that the company has more males than females.
 In such a scenario, the gender bias can be rectified by employing more female candidates for various posts.
 
 ![retirement_gender](Data/retiringby_gender.png)
+
+*Table 6: Retiring employees grouped by gender and titles held based on gender.*
 
 * To take the queries a little further, the Data Scientist team looked into the various titles held by the retiring employees and grouped them by gender. This gives the hiring managers an insight to the total count of titles held by males and females. From this table it is evident that PH had more male engineers (306) compared to female engineers (198). 
 From the additional studies it is evident that gender inequality needs to be addressed in t his company.
