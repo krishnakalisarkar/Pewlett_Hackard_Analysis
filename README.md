@@ -18,11 +18,11 @@ After some initial work with the PH data, some additional work was still needed 
 
 **Deliverable 1 Analysis:**
 
-![retiring_title]()
+![retiring_title](Data/retiring_titles.png)
 
 * From the retiring titles CSV table, it is evident that a total of 90,398 employees born between 1952 and 1955 are about to retire. Large number from these employees are Senior Engineers (29414) and Senior Staff members (28254) of the company.The other employees retiring are Engineers (14222), Staffs (12243), Technique Leaders (4502), Assistant Engineers (1761) and Managers (2).  
 
-**Highest number of retiring employees are Senior Engineers.**
+***Highest number of retiring employees are Senior Engineers.**
 
 ![Unique_titles](Data/unique_titles.png)
 
@@ -63,12 +63,10 @@ Apart from the above tables that were created, I looked into the gender equality
 Apart from the required queries the Data Scientist team also grouped the retiring employees based on their gender.
 * Count the employees who are retiring based on their gender, so that the gender equality can be maintained in the company.
 
-![retirement_gender]()
+![retirement_gender](Data/retiringby_gender.png)
 
 First a new table was created with the names of the retiring employees along with their gender and the title held. This was followed by counting the retiring employees based on their gender. It was found that a total of 1150 males and 790 females are retiring. More males are retiring than the number of females retiring.This could be that the company has more males than females.
 In such a scenario, the gender bias can be rectified by employing more female candidates for various posts.
-
-![gender_title]()
 
 * To take the queries a little further, the Data Scientist team looked into the various titles held by the retiring employees and grouped them by gender. This gives the hiring managers an insight to the total count of titles held by males and females. From this table it is evident that PH had more male engineers (306) compared to female engineers (198). 
 From the additional studies it is evident that gender inequality needs to be addressed in t his company.
