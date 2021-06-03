@@ -34,7 +34,7 @@ After some initial work with the PH data, some additional work was still needed 
 
 * The mentorship eligibility CSV table is a comprehensive table showing all the employees born in 1965 holding different titles who are eligible for the mentorship program. This table highlights their first name , last name, birthdate and their service years at HP.
 
-![mentorship_titles]()
+![mentorship_titles](Data/mentorship_title.png)
 
 * A little further SQL query into the mentorship eligibility table shows the count of employees under each title category who are eligible to mentor. This graph shows 507 engineers , 489 Senior Staffs , 415 Staffs, 353 Senior engineers , 99 Technique Leaders and 77 Assistant Engineers are eligible to mentor. There are 1940 employees in total who are eligible to mentor.  
 
