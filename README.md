@@ -30,7 +30,7 @@ After some initial work with the PH data, some additional work was still needed 
 
 **Deliverable 2 Analysis:**
 
-![mentorship_eligibility]()
+![mentorship_eligibility](Data/mentorship_eligibility.png)
 
 * The mentorship eligibility CSV table is a comprehensive table showing all the employees born in 1965 holding different titles who are eligible for the mentorship program. This table highlights their first name , last name, birthdate and their service years at HP.
 
