@@ -24,7 +24,7 @@ After some initial work with the PH data, some additional work was still needed 
 
 **Highest number of retiring employees are Senior Engineers.**
 
-![Unique_titles]()
+![Unique_titles](Data/unique_titles.png)
 
 * The Unique Titles CSV table gives detailed informations about the employees retiring. It includes their unique employment number, first name and last name along with the title he is currently working as. This table has unique names and no name is repeated twice. This is achieved by using the SELECT UNIQUE ON command on the employment number.
 
